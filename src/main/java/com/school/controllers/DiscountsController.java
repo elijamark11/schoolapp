@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DiscountsController {
 
     @GetMapping("/name")
-    public String getName() throws Exception {
+    public String getName() {
         return "Kamau Munywa";
     }
 }
