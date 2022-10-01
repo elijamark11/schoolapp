@@ -11,6 +11,6 @@ public class DiscountsController {
 
     @GetMapping("/name")
     public String getName() {
-        return "joshua and moses";
+        return "joshua and Rhoda";
     }
 }
